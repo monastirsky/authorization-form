@@ -20,7 +20,8 @@
         <div class="authorization">
           <h1 class="authorization__heading">Log In</h1>
           <p class="authorization__new-account">
-            Need a Mailchimp account? <a href="#">Create an account</a>
+            Need a Mailchimp account?
+            <a href="#" class="link">Create an account</a>
           </p>
           <form action="#" class="authorization__form">
             <label for="username">
@@ -32,17 +33,17 @@
               <input type="password" id="password" class="input" />
             </label>
             <input type="submit" class="input input-collor" value="Log In" />
-            <label for="keep-me-log"
+            <label for="keep-me-log" class="authorization__keep-me-log"
               ><span class="authorization__text"
                 ><input type="checkbox" id="keep-me-log" />Keep me logged
                 in</span
               ></label
             >
           </form>
-          <div>
-            <a href="">Forgot username?</a>
-            <span> . </span>
-            <a href="">Forgot password?</a>
+          <div class="authorization-block__forgot-block">
+            <a href="#" class="link">Forgot username?</a>
+            <span>&nbsp.&nbsp</span>
+            <a href="#" class="link">Forgot password?</a>
           </div>
         </div>
         <div class="authorization-block__footer">
@@ -56,9 +57,11 @@
 
       <div class="sign-up-offer">
         <div class="sign-up-offer__text">
-          <h2>‘Tis the season to maximize your sales.</h2>
+          <h2 class="sign-up-offer__heading">
+            ‘Tis the season to maximize your sales.
+          </h2>
           <p>Sign up to get weekly holiday tips from Mailchimp.</p>
-          <button>Subscride Now</button>
+          <button class="button">Subscride Now</button>
         </div>
       </div>
     </div>

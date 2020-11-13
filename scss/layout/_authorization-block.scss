@@ -2,9 +2,10 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  max-width: 40%;
+  max-width: 32%;
   width: 100%;
   margin: 0 auto;
+  font-size: 17px;
   &__logo {
     width: 50px;
     padding: 12px;
@@ -12,6 +13,12 @@
   &__footer {
     color: rgba(36, 28, 21, 0.65);
     padding: 10px;
+  }
+  &__forgot-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
   }
 }
 
@@ -40,7 +47,18 @@
     font-size: 20px;
     display: block;
   }
+  &__keep-me-log {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+  }
 }
+#keep-me-log {
+  margin-right: 10px;
+  zoom: 1.3;
+}
+
 @media (max-width: 1100px) {
   .authorization-block {
     max-width: 100%;
