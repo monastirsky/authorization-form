@@ -1,0 +1,20 @@
+.sign-up-offer {
+  background-image: url(https://cdn-images.mailchimp.com/billboards/phpDqdlvJ.jpeg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+
+  &__text {
+    margin-bottom: 200px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .sign-up-offer {
+    display: none;
+  }
+} ;
