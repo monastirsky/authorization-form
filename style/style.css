@@ -247,6 +247,24 @@ table {
   zoom: 1.3;
 }
 
+.show-password {
+  display: flex;
+  justify-content: space-between;
+}
+
+.show-password__button {
+  color: crimson;
+}
+
+.show-img {
+  width: 15px;
+  fill: aquamarine;
+}
+
+.show-password__button:hover {
+  color: purple;
+}
+
 @media (max-width: 1100px) {
   .authorization-block {
     max-width: 100%;
