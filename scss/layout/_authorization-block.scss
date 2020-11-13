@@ -1,15 +1,27 @@
 .authorization-block {
-  max-width: 510px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 40%;
   width: 100%;
   margin: 0 auto;
   &__logo {
-    max-width: 50px;
+    width: 50px;
     padding: 12px;
+  }
+  &__footer {
+    color: rgba(36, 28, 21, 0.65);
+    padding: 10px;
   }
 }
 
 .authorization {
-  padding: 30px;
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 470px;
+  width: 100%;
+  box-sizing: border-box;
+
   &__heading {
     font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
     font-size: 40px;
@@ -28,12 +40,18 @@
     font-size: 20px;
     display: block;
   }
-  &__footer {
-    color: rgba(36, 28, 21, 0.65);
-  }
 }
-
 @media (max-width: 1100px) {
   .authorization-block {
+    max-width: 100%;
+    align-items: center;
+    &__logo {
+      align-self: flex-start;
+    }
+  }
+}
+@media (max-width: 1100px) {
+  .authorization-block {
+    min-height: 98vh;
   }
 }
