@@ -201,6 +201,7 @@ table {
 }
 .authorization-block__footer {
   color: rgba(36, 28, 21, 0.65);
+  font-size: 15px;
   padding: 10px;
 }
 .authorization-block__forgot-block {
